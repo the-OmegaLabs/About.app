@@ -13,7 +13,6 @@ from PIL import (
 class Utils():
     def __init__(self, args):
         self.UI_LOCALE = args.UI_LOCALE
-        self.SET_MUTE = args.SET_MUTE        
         self.UI_SCALE = args.UI_SCALE
 
     def playsound(self, path: str):
